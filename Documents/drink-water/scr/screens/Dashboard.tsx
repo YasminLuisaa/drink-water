@@ -70,7 +70,7 @@ export const Dashboard: React.FC<IDashboardProps> = () => {
                     Copo Americano
                 </Button>
                 <Button onPress={()=> handleChangeCupSize(350)} colorScheme="teal">
-                    Xicará
+                    Xícara
                 </Button>
                 <Button onPress={()=> handleChangeCupSize(500)} colorScheme="teal">
                     Garrafa
@@ -80,3 +80,4 @@ export const Dashboard: React.FC<IDashboardProps> = () => {
         </VStack>
     );
 };
+
